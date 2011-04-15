@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ddd_kata.Cargo">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAIAAAAAAAAA=</HashCode>
+      <FileName>Cargo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_importe" />
+      <Field Name="_mes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ddd_kata.CuentaDeCargo" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>CuentaDeCargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ddd_kata.Gimnasio">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Gimnasio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ddd_kata.Importe" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAgAAAQAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Importe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ddd_kata.Nombre" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Nombre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ddd_kata.Cliente">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABIAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_nombre" />
+      <Field Name="_cuentaDeCargo" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_cargos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="ddd_kata.Mes" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
