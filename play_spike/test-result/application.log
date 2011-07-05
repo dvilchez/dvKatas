@@ -1,0 +1,5 @@
+20 May 2011 19:14:33,578 INFO  ~ Starting /media/DATOS/desarrollo_limpio/mis_proyectos/dvKatas/play_spike
+20 May 2011 19:14:34,608 WARN  ~ You're running Play! in DEV mode
+20 May 2011 19:14:34,727 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+20 May 2011 19:14:52,597 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+20 May 2011 19:14:52,685 INFO  ~ Application 'play_spike' is now started !
