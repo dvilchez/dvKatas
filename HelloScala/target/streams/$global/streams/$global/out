@@ -1,0 +1,22 @@
+[0m[[0minfo[0m] [0mSet current project to default-b5d627 (in build file:/media/datos/desarrollo_limpio/mis_proyectos/dvKatas/HelloScala/)[0m
+[0m[[31merror[0m] [0mNot a valid key: gen (similar: clean, run, target)[0m
+[0m[[31merror[0m] [0mgen idea[0m
+[0m[[31merror[0m] [0m   ^[0m
+[0m[[0minfo[0m] [0mTrying to create an Idea module default-b5d627[0m
+[0m[[0minfo[0m] [0mExcluding folder target[0m
+[0m[[0minfo[0m] [0mCreated /media/datos/desarrollo_limpio/mis_proyectos/dvKatas/HelloScala/.idea/IdeaProject.iml[0m
+[0m[[0minfo[0m] [0mCreated /media/datos/desarrollo_limpio/mis_proyectos/dvKatas/HelloScala/.idea[0m
+[0m[[0minfo[0m] [0mExcluding folder target[0m
+[0m[[0minfo[0m] [0mCreated /media/datos/desarrollo_limpio/mis_proyectos/dvKatas/HelloScala/.idea_modules/default-b5d627.iml[0m
+[0m[[0minfo[0m] [0mCreated /media/datos/desarrollo_limpio/mis_proyectos/dvKatas/HelloScala/.idea_modules/project.iml[0m
+[0m[[32msuccess[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:22:17 PM[0m
+[0m[[31merror[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:22:20 PM[0m
+[0m[[31merror[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:24:34 PM[0m
+[0m[[31merror[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:24:39 PM[0m
+[0m[[31merror[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:24:59 PM[0m
+[0m[[31merror[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:25:07 PM[0m
+[0m[[31merror[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:25:24 PM[0m
+[0m[[31merror[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:26:43 PM[0m
+[0m[[32msuccess[0m] [0mTotal time: 2 s, completed Sep 2, 2011 8:30:53 PM[0m
+[0m[[32msuccess[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:30:57 PM[0m
+[0m[[32msuccess[0m] [0mTotal time: 0 s, completed Sep 2, 2011 8:31:04 PM[0m

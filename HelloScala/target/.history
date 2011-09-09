@@ -1,0 +1,14 @@
+gen idea
+gen-idea
+compile
+run
+run HelloWorld.scala
+run HelloWorld
+run-main HelloWorld
+run-main HelloWorld.main
+run-main HelloWorld.scala
+run-main HelloWorld
+last
+compile
+run-main HelloWorld
+run

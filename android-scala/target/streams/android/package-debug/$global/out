@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /media/datos/desarrollo_limpio/mis_proyectos/dvKatas/android-scala/target/my-android-project-0.1.apk[0m
+[0m[[0mdebug[0m] [0mUsing keystore: /home/david/.android/debug.keystore[0m
+[0m[[0mdebug[0m] [0mPackaging my-android-project-0.1.apk[0m
+[0m[[0mdebug[0m] [0m/media/datos/desarrollo_limpio/mis_proyectos/dvKatas/android-scala/target/resources.apk:[0m
+[0m[[0mdebug[0m] [0m=> res/layout/main.xml[0m
+[0m[[0mdebug[0m] [0m=> AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0m=> resources.arsc[0m
+[0m[[0mdebug[0m] [0m=> res/drawable-hdpi/icon.png[0m
+[0m[[0mdebug[0m] [0m=> res/drawable-ldpi/icon.png[0m
+[0m[[0mdebug[0m] [0m=> res/drawable-mdpi/icon.png[0m
+[0m[[0mdebug[0m] [0m/media/datos/desarrollo_limpio/mis_proyectos/dvKatas/android-scala/target/classes.dex => classes.dex[0m
+[0m[[0mdebug[0m] [0m/media/datos/desarrollo_limpio/mis_proyectos/dvKatas/android-scala/target/classes.min.jar:[0m
+[0m[[0mdebug[0m] [0m=> library.properties[0m

@@ -1,0 +1,20 @@
+[0m[[0mdebug[0m] [0mexecuting proguard: -injars[0m
+[0m[[0mdebug[0m] [0m/media/datos/desarrollo_limpio/mis_proyectos/dvKatas/android-scala/target/scala-2.9.0.1/classes:/media/datos/desarrollo_limpio/mis_proyectos/dvKatas/android-scala/project/boot/scala-2.9.0-1/lib/scala-library.jar(!META-INF/MANIFEST.MF,!**/R.class,!**/R$*.class,!**/TR.class,!**/TR$.class,!**/library.properties)[0m
+[0m[[0mdebug[0m] [0m-outjars[0m
+[0m[[0mdebug[0m] [0m/media/datos/desarrollo_limpio/mis_proyectos/dvKatas/android-scala/target/classes.min.jar[0m
+[0m[[0mdebug[0m] [0m-libraryjars[0m
+[0m[[0mdebug[0m] [0m/opt/android-sdk-linux_x86/platforms/android-10/android.jar[0m
+[0m[[0mdebug[0m] [0m-dontwarn[0m
+[0m[[0mdebug[0m] [0m-dontoptimize[0m
+[0m[[0mdebug[0m] [0m-dontobfuscate[0m
+[0m[[0mdebug[0m] [0m-dontnote scala.Enumeration[0m
+[0m[[0mdebug[0m] [0m-dontnote org.xml.sax.EntityResolver[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.app.Activity[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.app.Service[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.appwidget.AppWidgetProvider[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.content.BroadcastReceiver[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.content.ContentProvider[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.view.View[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.app.Application[0m
+[0m[[0mdebug[0m] [0m-keep public class my.android.project.** { public protected *; }[0m
+[0m[[0mdebug[0m] [0m-keep public class * implements junit.framework.Test { public void test*(); }[0m
