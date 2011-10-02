@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:weightSum="1">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+        <Spinner android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/spinner1"></Spinner>
+        <TextView android:gravity="center_vertical" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="match_parent" android:text="&gt;&gt;" android:layout_width="wrap_content"></TextView>
+        <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/spinner2" android:layout_weight="1"></Spinner>
+    </LinearLayout>
+	<AutoCompleteTextView android:layout_width="match_parent"
+		android:id="@+id/autoCompleteTextView1" android:layout_height="wrap_content">
+		<requestFocus></requestFocus>
+	</AutoCompleteTextView>
+	<Button android:id="@+id/button1" 
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Traducir" android:onClick="traducir"></Button>
+	<EditText android:layout_width="match_parent" android:id="@+id/editText1" android:layout_height="wrap_content"></EditText>
+	<Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="next" android:onClick="next"></Button>
+</LinearLayout>
