@@ -1,0 +1,1 @@
+(1..10).each {|x| puts "This is sentence number #{x},"}
