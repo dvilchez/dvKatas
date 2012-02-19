@@ -40,4 +40,16 @@ public class Game extends Activity{
     public String getTileString(int i, int j) {
         return "1";  //To change body of created methods use File | Settings | File Templates.
     }
+
+    public boolean setTileIfValid(int selX, int selY, int tile) {
+        return true;  //To change body of created methods use File | Settings | File Templates.
+    }
+
+    public void showKeypadOrError(int selX, int selY) {
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
+    public Object[] getUsedTiles(int i, int j) {
+        return new Object[0];  //To change body of created methods use File | Settings | File Templates.
+    }
 }
