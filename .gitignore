@@ -4,3 +4,4 @@ _ReSharper/
 _ReSharper.*/
 *.user
 *.suo
+.DS_Store
