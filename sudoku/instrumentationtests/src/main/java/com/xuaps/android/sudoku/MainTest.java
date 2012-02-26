@@ -1,6 +1,8 @@
 package com.xuaps.android.sudoku;
 
+import android.app.AlertDialog;
 import android.test.suitebuilder.annotation.SmallTest;
+import android.widget.Button;
 import com.jayway.android.robotium.solo.Solo;
 import android.test.ActivityInstrumentationTestCase2;
 
@@ -16,8 +18,8 @@ public class MainTest extends ActivityInstrumentationTestCase2<Main>{
 
     private Solo solo;
 
-    public MainTest(Class<Main> activityClass) {
-        super(activityClass);
+    public MainTest() {
+        super(Main.class);
     }
 
     @Override
@@ -28,7 +30,9 @@ public class MainTest extends ActivityInstrumentationTestCase2<Main>{
 
     @SmallTest
     public void testNewGame(){
-        assertTrue(false);
+        solo.clickOnButton("new_button");
+        solo.assertCurrentActivity("prueba", AlertDialog.class);
+
     }
 
     @Override

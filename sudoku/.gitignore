@@ -3,3 +3,5 @@ gen/
 .idea/
 *.iml
 .DS_Store
+tmp/
+lib/
