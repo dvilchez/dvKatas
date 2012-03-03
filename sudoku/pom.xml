@@ -46,6 +46,7 @@
                     <configuration>
                         <sdk>
                             <platform>8</platform>
+                            <path>/Users/dvilchez/Documents/android-sdk-macosx</path>
                         </sdk>
                         <undeployBeforeDeploy>true</undeployBeforeDeploy>
                     </configuration>

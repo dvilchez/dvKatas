@@ -68,7 +68,12 @@
             <plugin>
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                 <artifactId>android-maven-plugin</artifactId>
+                <version>3.1.1</version>
                 <configuration>
+                    <sdk>
+                        <platform>8</platform>
+                        <path>/Users/dvilchez/Documents/android-sdk-macosx</path>
+                    </sdk>
                     <test>
                         <!--<skip>true|false|auto</skip>-->
                         <!--<instrumentationPackage>packageName</instrumentationPackage>-->
@@ -80,13 +85,15 @@
                         <testSize>small</testSize>
                         <createReport>true</createReport>
                         <!--<classes>-->
-                            <!--<class>your.package.name.YourTestClass</class>-->
+                        <!--<class>your.package.name.YourTestClass</class>-->
                         <!--</classes>-->
                         <!--<packages>-->
-                            <!--<package>your.package.name</package>-->
+                        <!--<package>your.package.name</package>-->
                         <!--</packages>-->
                     </test>
+                    <undeployBeforeDeploy>true</undeployBeforeDeploy>
                 </configuration>
+                <extensions>true</extensions>
             </plugin>
         </plugins>
     </build>
