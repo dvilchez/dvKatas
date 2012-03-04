@@ -33,5 +33,6 @@
     <instrumentation android:name="android.test.InstrumentationTestRunner"
                      android:targetPackage="com.xuaps.android.sudoku"
                      android:label="Tests for Sudoku."/>
+    <uses-sdk android:targetSdkVersion="8" />
 
 </manifest>

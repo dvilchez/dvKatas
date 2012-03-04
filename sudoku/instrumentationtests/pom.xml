@@ -29,7 +29,7 @@
     <artifactId>instrumentationtest</artifactId>
     <packaging>apk</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Your Test Android project Maven Enabled</name>
+    <name>Android sudoku instrumentation test</name>
     <dependencies>
         <dependency>
             <groupId>com.google.android</groupId>
@@ -82,7 +82,7 @@
                         <!--<coverage>true|false</coverage>-->
                         <!--<logonly>true|false</logonly>  avd-->
                         <!--<testsize>small|medium|large</testsize>-->
-                        <testSize>small</testSize>
+                        <testSize>large</testSize>
                         <createReport>true</createReport>
                         <!--<classes>-->
                         <!--<class>your.package.name.YourTestClass</class>-->
