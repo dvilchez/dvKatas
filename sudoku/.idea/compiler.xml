@@ -2,6 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/application/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/application/target/generated-sources/r" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/application/target/generated-sources/aidl" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/instrumentationtests/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/instrumentationtests/target/generated-sources/r" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/instrumentationtests/target/generated-sources/aidl" includeSubdirectories="true" />
+    </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="?*.properties" />

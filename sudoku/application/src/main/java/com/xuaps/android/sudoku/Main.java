@@ -79,14 +79,18 @@ public class Main extends Activity implements View.OnClickListener {
     private static final String TAG="Sudoku";
 
     private void openNewGameDialog() {
-        new AlertDialog.Builder(this)
-                .setTitle(R.string.new_game_title)
-                .setItems(R.array.difficulty,new DialogInterface.OnClickListener() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.new_game_title);
+        builder.setItems(new String[]{getString(R.string.easy_label)
+                , getString(R.string.medium_label)
+                , getString(R.string.hard_label)},new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         startGame(i);
                     }
-                }).show();
+                });
+        AlertDialog alert=builder.create();
+        alert.show();
     }
 
     private void startGame(int i) {
