@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f05fe47c-d1b3-4d0d-a38d-1f067e9005c7" name="Administrator@DAVIDVLCHEZ7576 2012-06-01 00:09:01" runUser="DAVIDVLCHEZ7576\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d6b16968-13de-400e-a838-8719163eadcc">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Administrator_DAVIDVLCHEZ7576 2012-06-01 00_09_01">
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Embedded.1.0.888\lib\net40\Raven.Client.Embedded.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\BouncyCastle.Crypto.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\ICSharpCode.NRefactory.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Raven.Storage.Managed.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Lucene.Net.Contrib.Spatial.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Client.1.0.888\lib\net40\Raven.Client.Lightweight.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Raven.Database.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Client.1.0.888\lib\net40\Raven.Abstractions.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Raven.Storage.Esent.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Raven.Munin.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Lucene.Net.Contrib.SpellChecker.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\Newtonsoft.Json.4.0.8\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Esent.Interop.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Lucene.Net.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\NLog.2.0.0.2000\lib\net40\NLog.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-01T00:09:01.9726563+02:00" queuing="2012-06-01T00:09:02.9794922+02:00" start="2012-06-01T00:09:03.1328125+02:00" finish="2012-06-01T00:09:04.5283203+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="6" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Load" storage="\\psf\home\documents\desarrollo_limpio\mis_proyectos\dvkatas\ravendbspike\ravendbspike.test\bin\debug\ravendbspike.test.dll" id="dd60811d-5ce5-0bd2-63d0-a91107020a5c">
+      <Execution id="31ab0441-9c7b-4576-a926-1fac528f926c" />
+      <TestMethod codeBase="file://psf/Home/Documents/desarrollo_limpio/mis_proyectos/dvKatas/RavenDbSpike/RavenDbSpike.Test/bin/Debug/RavenDbSpike.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RavenDbSpike.Test.RavenDb, RavenDbSpike.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Load" />
+    </UnitTest>
+    <UnitTest name="Insert" storage="\\psf\home\documents\desarrollo_limpio\mis_proyectos\dvkatas\ravendbspike\ravendbspike.test\bin\debug\ravendbspike.test.dll" id="e0be4ebf-34e4-5382-f3f7-6217fdfa5498">
+      <Execution id="1f6655eb-4ce4-4994-873a-5115185dc42b" />
+      <TestMethod codeBase="file://psf/Home/Documents/desarrollo_limpio/mis_proyectos/dvKatas/RavenDbSpike/RavenDbSpike.Test/bin/Debug/RavenDbSpike.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RavenDbSpike.Test.RavenDb, RavenDbSpike.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Insert" />
+    </UnitTest>
+    <UnitTest name="UpdateChanges" storage="\\psf\home\documents\desarrollo_limpio\mis_proyectos\dvkatas\ravendbspike\ravendbspike.test\bin\debug\ravendbspike.test.dll" id="6c56f8a6-04fc-05c5-d6db-281f6e346370">
+      <TestMethod codeBase="file://psf/Home/Documents/desarrollo_limpio/mis_proyectos/dvKatas/RavenDbSpike/RavenDbSpike.Test/bin/Debug/RavenDbSpike.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RavenDbSpike.Test.RavenDb, RavenDbSpike.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateChanges" />
+    </UnitTest>
+    <UnitTest name="Delete" storage="\\psf\home\documents\desarrollo_limpio\mis_proyectos\dvkatas\ravendbspike\ravendbspike.test\bin\debug\ravendbspike.test.dll" id="5559f7e3-de25-c0ed-eb7a-d1283f0a88a3">
+      <TestMethod codeBase="file://psf/Home/Documents/desarrollo_limpio/mis_proyectos/dvKatas/RavenDbSpike/RavenDbSpike.Test/bin/Debug/RavenDbSpike.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RavenDbSpike.Test.RavenDb, RavenDbSpike.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Delete" />
+    </UnitTest>
+    <OrderedTest name="OrderedTest1" storage="\\psf\home\documents\desarrollo_limpio\mis_proyectos\dvkatas\ravendbspike\ravendbspike.test\orderedtest1.orderedtest" id="711d4d8e-f1e1-4bba-a04e-ce7d6ecc3812">
+      <Execution id="95b1f085-4bd5-4f33-bb3a-51c313462469" />
+      <TestLinks>
+        <TestLink id="e0be4ebf-34e4-5382-f3f7-6217fdfa5498" name="Insert" storage="bin\debug\ravendbspike.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="dd60811d-5ce5-0bd2-63d0-a91107020a5c" name="Load" storage="bin\debug\ravendbspike.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="6c56f8a6-04fc-05c5-d6db-281f6e346370" name="UpdateChanges" storage="bin\debug\ravendbspike.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="5559f7e3-de25-c0ed-eb7a-d1283f0a88a3" name="Delete" storage="bin\debug\ravendbspike.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="711d4d8e-f1e1-4bba-a04e-ce7d6ecc3812" executionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="e0be4ebf-34e4-5382-f3f7-6217fdfa5498" executionId="0ea07dc7-b1f6-42c8-bec0-03af751eb7e5" parentExecutionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="dd60811d-5ce5-0bd2-63d0-a91107020a5c" executionId="00fe1da0-369a-4740-9a95-409cafd7637f" parentExecutionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="6c56f8a6-04fc-05c5-d6db-281f6e346370" executionId="e27eb671-8c65-4a67-a62f-098bcb799ee9" parentExecutionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="5559f7e3-de25-c0ed-eb7a-d1283f0a88a3" executionId="7dab131f-cdc2-4c19-8aa3-6c0b0c2a0d89" parentExecutionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+    <TestEntry testId="dd60811d-5ce5-0bd2-63d0-a91107020a5c" executionId="31ab0441-9c7b-4576-a926-1fac528f926c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0be4ebf-34e4-5382-f3f7-6217fdfa5498" executionId="1f6655eb-4ce4-4994-873a-5115185dc42b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <TestResultAggregation executionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testId="711d4d8e-f1e1-4bba-a04e-ce7d6ecc3812" testName="OrderedTest1" computerName="DAVIDVLCHEZ7576" duration="00:00:01.0864150" startTime="2012-06-01T00:09:03.2431641+02:00" endTime="2012-06-01T00:09:04.3359375+02:00" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95b1f085-4bd5-4f33-bb3a-51c313462469">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="4" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="0ea07dc7-b1f6-42c8-bec0-03af751eb7e5" parentExecutionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testId="e0be4ebf-34e4-5382-f3f7-6217fdfa5498" testName="Insert" computerName="DAVIDVLCHEZ7576" duration="00:00:00.1474617" startTime="2012-06-01T00:09:03.2460938+02:00" endTime="2012-06-01T00:09:04.2255860+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ea07dc7-b1f6-42c8-bec0-03af751eb7e5">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="00fe1da0-369a-4740-9a95-409cafd7637f" parentExecutionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testId="dd60811d-5ce5-0bd2-63d0-a91107020a5c" testName="Load" computerName="DAVIDVLCHEZ7576" duration="00:00:00.0421594" startTime="2012-06-01T00:09:04.2255860+02:00" endTime="2012-06-01T00:09:04.2851563+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00fe1da0-369a-4740-9a95-409cafd7637f">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e27eb671-8c65-4a67-a62f-098bcb799ee9" parentExecutionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testId="6c56f8a6-04fc-05c5-d6db-281f6e346370" testName="UpdateChanges" computerName="DAVIDVLCHEZ7576" duration="00:00:00.0082855" startTime="2012-06-01T00:09:04.2851563+02:00" endTime="2012-06-01T00:09:04.3095703+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e27eb671-8c65-4a67-a62f-098bcb799ee9">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7dab131f-cdc2-4c19-8aa3-6c0b0c2a0d89" parentExecutionId="95b1f085-4bd5-4f33-bb3a-51c313462469" testId="5559f7e3-de25-c0ed-eb7a-d1283f0a88a3" testName="Delete" computerName="DAVIDVLCHEZ7576" duration="00:00:00.0095964" startTime="2012-06-01T00:09:04.3095703+02:00" endTime="2012-06-01T00:09:04.3349610+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dab131f-cdc2-4c19-8aa3-6c0b0c2a0d89">
+          <Output>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </TestResultAggregation>
+    <UnitTestResult executionId="31ab0441-9c7b-4576-a926-1fac528f926c" testId="dd60811d-5ce5-0bd2-63d0-a91107020a5c" testName="Load" computerName="DAVIDVLCHEZ7576" duration="00:00:00.0180004" startTime="2012-06-01T00:09:04.3632813+02:00" endTime="2012-06-01T00:09:04.3867188+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31ab0441-9c7b-4576-a926-1fac528f926c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull failed. </Message>
+          <StackTrace>   at RavenDbSpike.Test.RavenDb.Load() in \\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\RavenDbSpike.Test\RavenDb.cs:line 44
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f6655eb-4ce4-4994-873a-5115185dc42b" testId="e0be4ebf-34e4-5382-f3f7-6217fdfa5498" testName="Insert" computerName="DAVIDVLCHEZ7576" duration="00:00:00.0020500" startTime="2012-06-01T00:09:04.3984375+02:00" endTime="2012-06-01T00:09:04.4033203+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f6655eb-4ce4-4994-873a-5115185dc42b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

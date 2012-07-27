@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="OrderedTest1" storage="\\psf\home\documents\desarrollo_limpio\mis_proyectos\dvkatas\ravendbspike\ravendbspike.test\orderedtest1.orderedtest" id="711d4d8e-f1e1-4bba-a04e-ce7d6ecc3812" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="e0be4ebf-34e4-5382-f3f7-6217fdfa5498" name="Insert" storage="bin\debug\ravendbspike.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="dd60811d-5ce5-0bd2-63d0-a91107020a5c" name="Load" storage="bin\debug\ravendbspike.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="6c56f8a6-04fc-05c5-d6db-281f6e346370" name="UpdateChanges" storage="bin\debug\ravendbspike.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="5559f7e3-de25-c0ed-eb7a-d1283f0a88a3" name="Delete" storage="bin\debug\ravendbspike.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

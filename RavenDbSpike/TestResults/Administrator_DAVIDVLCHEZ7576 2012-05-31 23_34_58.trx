@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cfdcf6ac-95a0-4ee7-8e7e-d4896527dfe7" name="Administrator@DAVIDVLCHEZ7576 2012-05-31 23:34:58" runUser="DAVIDVLCHEZ7576\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d6b16968-13de-400e-a838-8719163eadcc">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_DAVIDVLCHEZ7576 2012-05-31 23_34_58">
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Embedded.1.0.888\lib\net40\Raven.Client.Embedded.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\BouncyCastle.Crypto.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\ICSharpCode.NRefactory.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Raven.Storage.Managed.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Lucene.Net.Contrib.Spatial.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Client.1.0.888\lib\net40\Raven.Client.Lightweight.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Raven.Database.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Client.1.0.888\lib\net40\Raven.Abstractions.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Raven.Storage.Esent.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Raven.Munin.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Lucene.Net.Contrib.SpellChecker.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\Newtonsoft.Json.4.0.8\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Esent.Interop.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\RavenDB.Database.1.0.888\lib\net40\Lucene.Net.dll" />
+      <DeploymentItem filename="\\psf\Home\Documents\desarrollo_limpio\mis_proyectos\dvKatas\RavenDbSpike\packages\NLog.2.0.0.2000\lib\net40\NLog.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-31T23:34:58.4941407+02:00" queuing="2012-05-31T23:34:59.9541016+02:00" start="2012-05-31T23:35:00.2871094+02:00" finish="2012-05-31T23:35:00.5732422+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InitializeRaven" storage="\\psf\home\documents\desarrollo_limpio\mis_proyectos\dvkatas\ravendbspike\ravendbspike.test\bin\debug\ravendbspike.test.dll" id="4876e1d2-7276-f78c-07ec-d1dc90309fde">
+      <Execution id="371b0214-b8e9-4df0-b383-d2f753cb96e4" />
+      <TestMethod codeBase="file://psf/Home/Documents/desarrollo_limpio/mis_proyectos/dvKatas/RavenDbSpike/RavenDbSpike.Test/bin/Debug/RavenDbSpike.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RavenDbSpike.Test.RavenDb, RavenDbSpike.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeRaven" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4876e1d2-7276-f78c-07ec-d1dc90309fde" executionId="371b0214-b8e9-4df0-b383-d2f753cb96e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="371b0214-b8e9-4df0-b383-d2f753cb96e4" testId="4876e1d2-7276-f78c-07ec-d1dc90309fde" testName="InitializeRaven" computerName="DAVIDVLCHEZ7576" startTime="2012-05-31T23:35:00.3671875+02:00" endTime="2012-05-31T23:35:00.4199219+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="371b0214-b8e9-4df0-b383-d2f753cb96e4">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+URI formats are not supported..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
