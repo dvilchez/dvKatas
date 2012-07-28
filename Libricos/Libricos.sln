@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libricos", "Libricos\Libricos.csproj", "{B7DAD6DC-1D32-4337-B236-7A6C80E91030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libricos.Model", "Libricos.Model\Libricos.Model.csproj", "{C81B42D4-4563-4BF7-B7D7-0D886498FE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libricos.Repository", "Libricos.Repository\Libricos.Repository.csproj", "{D61E5880-F46C-4DFD-817D-A1074C8F90B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libricos.Test", "Libricos.Test\Libricos.Test.csproj", "{8ED7C34F-EFBC-4C96-9EB8-964485408342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7DAD6DC-1D32-4337-B236-7A6C80E91030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DAD6DC-1D32-4337-B236-7A6C80E91030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DAD6DC-1D32-4337-B236-7A6C80E91030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DAD6DC-1D32-4337-B236-7A6C80E91030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81B42D4-4563-4BF7-B7D7-0D886498FE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81B42D4-4563-4BF7-B7D7-0D886498FE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81B42D4-4563-4BF7-B7D7-0D886498FE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81B42D4-4563-4BF7-B7D7-0D886498FE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61E5880-F46C-4DFD-817D-A1074C8F90B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61E5880-F46C-4DFD-817D-A1074C8F90B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61E5880-F46C-4DFD-817D-A1074C8F90B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61E5880-F46C-4DFD-817D-A1074C8F90B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED7C34F-EFBC-4C96-9EB8-964485408342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED7C34F-EFBC-4C96-9EB8-964485408342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED7C34F-EFBC-4C96-9EB8-964485408342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED7C34F-EFBC-4C96-9EB8-964485408342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
