@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E35FA12515E0572900F650E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FA12415E0572900F650E7 /* UIKit.framework */; };
+		E35FA12715E0572900F650E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FA12615E0572900F650E7 /* Foundation.framework */; };
+		E35FA12915E0572900F650E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FA12815E0572900F650E7 /* CoreGraphics.framework */; };
+		E35FA12F15E0572900F650E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E35FA12D15E0572900F650E7 /* InfoPlist.strings */; };
+		E35FA13115E0572900F650E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35FA13015E0572900F650E7 /* main.m */; };
+		E35FA13515E0572900F650E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35FA13415E0572900F650E7 /* AppDelegate.m */; };
+		E35FA13815E0572900F650E7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35FA13615E0572900F650E7 /* MainStoryboard_iPhone.storyboard */; };
+		E35FA13B15E0572900F650E7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35FA13915E0572900F650E7 /* MainStoryboard_iPad.storyboard */; };
+		E35FA13E15E0572900F650E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35FA13D15E0572900F650E7 /* ViewController.m */; };
+		E35FA14615E0572900F650E7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FA14515E0572900F650E7 /* SenTestingKit.framework */; };
+		E35FA14715E0572900F650E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FA12415E0572900F650E7 /* UIKit.framework */; };
+		E35FA14815E0572900F650E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FA12615E0572900F650E7 /* Foundation.framework */; };
+		E35FA15015E0572900F650E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E35FA14E15E0572900F650E7 /* InfoPlist.strings */; };
+		E35FA15315E0572900F650E7 /* iphone_spikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35FA15215E0572900F650E7 /* iphone_spikeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E35FA14915E0572900F650E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35FA11715E0572900F650E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35FA11F15E0572900F650E7;
+			remoteInfo = "iphone-spike";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E35FA12015E0572900F650E7 /* iphone-spike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iphone-spike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35FA12415E0572900F650E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E35FA12615E0572900F650E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E35FA12815E0572900F650E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E35FA12C15E0572900F650E7 /* iphone-spike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iphone-spike-Info.plist"; sourceTree = "<group>"; };
+		E35FA12E15E0572900F650E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E35FA13015E0572900F650E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E35FA13215E0572900F650E7 /* iphone-spike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iphone-spike-Prefix.pch"; sourceTree = "<group>"; };
+		E35FA13315E0572900F650E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E35FA13415E0572900F650E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E35FA13715E0572900F650E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E35FA13A15E0572900F650E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E35FA13C15E0572900F650E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E35FA13D15E0572900F650E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E35FA14415E0572900F650E7 /* iphone-spikeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iphone-spikeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35FA14515E0572900F650E7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E35FA14D15E0572900F650E7 /* iphone-spikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iphone-spikeTests-Info.plist"; sourceTree = "<group>"; };
+		E35FA14F15E0572900F650E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E35FA15115E0572900F650E7 /* iphone_spikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iphone_spikeTests.h; sourceTree = "<group>"; };
+		E35FA15215E0572900F650E7 /* iphone_spikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iphone_spikeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E35FA11D15E0572900F650E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35FA12515E0572900F650E7 /* UIKit.framework in Frameworks */,
+				E35FA12715E0572900F650E7 /* Foundation.framework in Frameworks */,
+				E35FA12915E0572900F650E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35FA14015E0572900F650E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35FA14615E0572900F650E7 /* SenTestingKit.framework in Frameworks */,
+				E35FA14715E0572900F650E7 /* UIKit.framework in Frameworks */,
+				E35FA14815E0572900F650E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E35FA11515E0572900F650E7 = {
+			isa = PBXGroup;
+			children = (
+				E35FA12A15E0572900F650E7 /* iphone-spike */,
+				E35FA14B15E0572900F650E7 /* iphone-spikeTests */,
+				E35FA12315E0572900F650E7 /* Frameworks */,
+				E35FA12115E0572900F650E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E35FA12115E0572900F650E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E35FA12015E0572900F650E7 /* iphone-spike.app */,
+				E35FA14415E0572900F650E7 /* iphone-spikeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35FA12315E0572900F650E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E35FA12415E0572900F650E7 /* UIKit.framework */,
+				E35FA12615E0572900F650E7 /* Foundation.framework */,
+				E35FA12815E0572900F650E7 /* CoreGraphics.framework */,
+				E35FA14515E0572900F650E7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E35FA12A15E0572900F650E7 /* iphone-spike */ = {
+			isa = PBXGroup;
+			children = (
+				E35FA13315E0572900F650E7 /* AppDelegate.h */,
+				E35FA13415E0572900F650E7 /* AppDelegate.m */,
+				E35FA13615E0572900F650E7 /* MainStoryboard_iPhone.storyboard */,
+				E35FA13915E0572900F650E7 /* MainStoryboard_iPad.storyboard */,
+				E35FA13C15E0572900F650E7 /* ViewController.h */,
+				E35FA13D15E0572900F650E7 /* ViewController.m */,
+				E35FA12B15E0572900F650E7 /* Supporting Files */,
+			);
+			path = "iphone-spike";
+			sourceTree = "<group>";
+		};
+		E35FA12B15E0572900F650E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35FA12C15E0572900F650E7 /* iphone-spike-Info.plist */,
+				E35FA12D15E0572900F650E7 /* InfoPlist.strings */,
+				E35FA13015E0572900F650E7 /* main.m */,
+				E35FA13215E0572900F650E7 /* iphone-spike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E35FA14B15E0572900F650E7 /* iphone-spikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E35FA15115E0572900F650E7 /* iphone_spikeTests.h */,
+				E35FA15215E0572900F650E7 /* iphone_spikeTests.m */,
+				E35FA14C15E0572900F650E7 /* Supporting Files */,
+			);
+			path = "iphone-spikeTests";
+			sourceTree = "<group>";
+		};
+		E35FA14C15E0572900F650E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35FA14D15E0572900F650E7 /* iphone-spikeTests-Info.plist */,
+				E35FA14E15E0572900F650E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E35FA11F15E0572900F650E7 /* iphone-spike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35FA15615E0572900F650E7 /* Build configuration list for PBXNativeTarget "iphone-spike" */;
+			buildPhases = (
+				E35FA11C15E0572900F650E7 /* Sources */,
+				E35FA11D15E0572900F650E7 /* Frameworks */,
+				E35FA11E15E0572900F650E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iphone-spike";
+			productName = "iphone-spike";
+			productReference = E35FA12015E0572900F650E7 /* iphone-spike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E35FA14315E0572900F650E7 /* iphone-spikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35FA15915E0572900F650E7 /* Build configuration list for PBXNativeTarget "iphone-spikeTests" */;
+			buildPhases = (
+				E35FA13F15E0572900F650E7 /* Sources */,
+				E35FA14015E0572900F650E7 /* Frameworks */,
+				E35FA14115E0572900F650E7 /* Resources */,
+				E35FA14215E0572900F650E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35FA14A15E0572900F650E7 /* PBXTargetDependency */,
+			);
+			name = "iphone-spikeTests";
+			productName = "iphone-spikeTests";
+			productReference = E35FA14415E0572900F650E7 /* iphone-spikeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E35FA11715E0572900F650E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "David Vílchez";
+			};
+			buildConfigurationList = E35FA11A15E0572900F650E7 /* Build configuration list for PBXProject "iphone-spike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E35FA11515E0572900F650E7;
+			productRefGroup = E35FA12115E0572900F650E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E35FA11F15E0572900F650E7 /* iphone-spike */,
+				E35FA14315E0572900F650E7 /* iphone-spikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E35FA11E15E0572900F650E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35FA12F15E0572900F650E7 /* InfoPlist.strings in Resources */,
+				E35FA13815E0572900F650E7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E35FA13B15E0572900F650E7 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35FA14115E0572900F650E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35FA15015E0572900F650E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E35FA14215E0572900F650E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E35FA11C15E0572900F650E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35FA13115E0572900F650E7 /* main.m in Sources */,
+				E35FA13515E0572900F650E7 /* AppDelegate.m in Sources */,
+				E35FA13E15E0572900F650E7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35FA13F15E0572900F650E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35FA15315E0572900F650E7 /* iphone_spikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E35FA14A15E0572900F650E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35FA11F15E0572900F650E7 /* iphone-spike */;
+			targetProxy = E35FA14915E0572900F650E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E35FA12D15E0572900F650E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35FA12E15E0572900F650E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E35FA13615E0572900F650E7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35FA13715E0572900F650E7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E35FA13915E0572900F650E7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35FA13A15E0572900F650E7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E35FA14E15E0572900F650E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35FA14F15E0572900F650E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E35FA15415E0572900F650E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E35FA15515E0572900F650E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E35FA15715E0572900F650E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iphone-spike/iphone-spike-Prefix.pch";
+				INFOPLIST_FILE = "iphone-spike/iphone-spike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E35FA15815E0572900F650E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iphone-spike/iphone-spike-Prefix.pch";
+				INFOPLIST_FILE = "iphone-spike/iphone-spike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E35FA15A15E0572900F650E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iphone-spike.app/iphone-spike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iphone-spike/iphone-spike-Prefix.pch";
+				INFOPLIST_FILE = "iphone-spikeTests/iphone-spikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E35FA15B15E0572900F650E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iphone-spike.app/iphone-spike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iphone-spike/iphone-spike-Prefix.pch";
+				INFOPLIST_FILE = "iphone-spikeTests/iphone-spikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E35FA11A15E0572900F650E7 /* Build configuration list for PBXProject "iphone-spike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35FA15415E0572900F650E7 /* Debug */,
+				E35FA15515E0572900F650E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35FA15615E0572900F650E7 /* Build configuration list for PBXNativeTarget "iphone-spike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35FA15715E0572900F650E7 /* Debug */,
+				E35FA15815E0572900F650E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35FA15915E0572900F650E7 /* Build configuration list for PBXNativeTarget "iphone-spikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35FA15A15E0572900F650E7 /* Debug */,
+				E35FA15B15E0572900F650E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E35FA11715E0572900F650E7 /* Project object */;
+}

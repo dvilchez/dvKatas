@@ -1,0 +1,198 @@
+2012-08-19 16:13:42.123 spike_cordova[16078:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 16:13:42.223 spike_cordova[16078:c07] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-08-19 16:13:42.224 spike_cordova[16078:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-08-19 16:13:42.225 spike_cordova[16078:c07] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-08-19 16:13:42.226 spike_cordova[16078:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-08-19 16:13:42.237 spike_cordova[16078:c07] [INFO] report:deviceready
+2012-08-19 16:14:29.175 spike_cordova[16255:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 16:14:29.256 spike_cordova[16255:c07] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-08-19 16:14:29.256 spike_cordova[16255:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-08-19 16:14:29.258 spike_cordova[16255:c07] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-08-19 16:14:29.258 spike_cordova[16255:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-08-19 16:14:29.268 spike_cordova[16255:c07] [INFO] report:deviceready
+2012-08-19 16:23:47.661 spike_cordova[16446:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 16:23:47.873 spike_cordova[16446:1e03] ERROR whitelist rejection: url='http://localhost/directory/services/getemployees.php'
+2012-08-19 16:23:47.873 spike_cordova[16446:1e03] ERROR whitelist rejection: url='http://localhost/directory/services/getemployees.php'
+2012-08-19 16:23:47.874 spike_cordova[16446:1e03] ERROR whitelist rejection: url='http://localhost/directory/services/getemployees.php'
+2012-08-19 16:26:27.362 spike_cordova[16600:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 16:26:27.476 spike_cordova[16600:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 16:26:27.477 spike_cordova[16600:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 16:26:27.477 spike_cordova[16600:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 16:27:02.508 spike_cordova[16747:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 16:27:02.617 spike_cordova[16747:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 16:27:02.618 spike_cordova[16747:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 16:27:02.618 spike_cordova[16747:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:23:05.609 spike_cordova[17125:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:23:05.846 spike_cordova[17125:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:23:05.847 spike_cordova[17125:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:23:05.847 spike_cordova[17125:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:26:58.330 spike_cordova[17296:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:26:58.438 spike_cordova[17296:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:26:58.439 spike_cordova[17296:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:26:58.439 spike_cordova[17296:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:28:27.556 spike_cordova[17448:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:28:27.683 spike_cordova[17448:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:28:27.685 spike_cordova[17448:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:28:27.686 spike_cordova[17448:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:31:24.727 spike_cordova[17601:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:31:24.833 spike_cordova[17601:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:31:24.833 spike_cordova[17601:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:31:24.834 spike_cordova[17601:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:32:28.155 spike_cordova[17756:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:32:28.264 spike_cordova[17756:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:32:28.264 spike_cordova[17756:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:32:28.264 spike_cordova[17756:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:33:23.372 spike_cordova[17904:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:33:23.483 spike_cordova[17904:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:33:23.484 spike_cordova[17904:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:33:23.484 spike_cordova[17904:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:34:00.329 spike_cordova[18050:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:34:00.436 spike_cordova[18050:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:34:00.436 spike_cordova[18050:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:34:00.437 spike_cordova[18050:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:35:17.677 spike_cordova[18197:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:35:17.782 spike_cordova[18197:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:35:17.783 spike_cordova[18197:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:35:17.783 spike_cordova[18197:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:35:47.415 spike_cordova[18342:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:36:20.571 spike_cordova[18488:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:37:24.707 spike_cordova[18635:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:37:43.760 spike_cordova[18783:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:37:43.867 spike_cordova[18783:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:37:43.867 spike_cordova[18783:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:37:43.868 spike_cordova[18783:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:39:01.974 spike_cordova[18931:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:40:39.068 spike_cordova[19081:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 17:40:39.183 spike_cordova[19081:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:40:39.183 spike_cordova[19081:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:40:39.184 spike_cordova[19081:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 17:40:39.212 spike_cordova[19081:c07] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-08-19 17:40:39.212 spike_cordova[19081:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-08-19 17:40:39.214 spike_cordova[19081:c07] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-08-19 17:40:39.214 spike_cordova[19081:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-08-19 17:40:39.220 spike_cordova[19081:c07] [INFO] evento
+2012-08-19 17:40:39.221 spike_cordova[19081:c07] Will use resource 'http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3' from the Internet.
+2012-08-19 17:40:39.221 spike_cordova[19081:c07] PluginResult:toJSONString - {"status":1,"message":"OK","keepCallback":false}
+2012-08-19 17:40:39.222 spike_cordova[19081:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Media2',{"status":1,"message":"OK","keepCallback":false});
+2012-08-19 17:40:39.222 spike_cordova[19081:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-19 17:40:39.223 spike_cordova[19081:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-19 17:40:39.223 spike_cordova[19081:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-19 17:40:39.224 spike_cordova[19081:c07] Unable to download audio from: http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3
+2012-08-19 17:40:39.226 spike_cordova[19081:c07] Failed to initialize AVAudioPlayer: The operation couldn’t be completed. (NSURLErrorDomain error -1012.)
+2012-08-19 17:41:49.398 spike_cordova[19081:1e03] void SendDelegateMessage(NSInvocation*): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2012-08-19 18:23:05.143 spike_cordova[19326:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-19 18:23:05.254 spike_cordova[19326:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 18:23:05.254 spike_cordova[19326:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 18:23:05.255 spike_cordova[19326:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-19 18:23:05.285 spike_cordova[19326:c07] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-08-19 18:23:05.285 spike_cordova[19326:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-08-19 18:23:05.287 spike_cordova[19326:c07] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-08-19 18:23:05.287 spike_cordova[19326:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-08-19 18:23:05.292 spike_cordova[19326:c07] [INFO] evento
+2012-08-19 18:23:05.293 spike_cordova[19326:c07] Will use resource 'http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3' from the Internet.
+2012-08-19 18:23:05.293 spike_cordova[19326:c07] PluginResult:toJSONString - {"status":1,"message":"OK","keepCallback":false}
+2012-08-19 18:23:05.294 spike_cordova[19326:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Media2',{"status":1,"message":"OK","keepCallback":false});
+2012-08-19 18:23:05.295 spike_cordova[19326:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-19 18:23:05.295 spike_cordova[19326:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-19 18:23:05.296 spike_cordova[19326:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-19 18:23:05.296 spike_cordova[19326:c07] Unable to download audio from: http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3
+2012-08-19 18:23:05.298 spike_cordova[19326:c07] Failed to initialize AVAudioPlayer: The operation couldn’t be completed. (NSURLErrorDomain error -1012.)
+2012-08-19 22:42:58.377 spike_cordova[19326:1e03] void SendDelegateMessage(NSInvocation*): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2012-08-20 21:43:47.730 spike_cordova[20417:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-20 21:43:48.063 spike_cordova[20417:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-20 21:43:48.063 spike_cordova[20417:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-20 21:43:48.064 spike_cordova[20417:1e03] ERROR whitelist rejection: url='http://coenraets.org/apps/directory/services/getemployees.php'
+2012-08-20 21:43:48.102 spike_cordova[20417:c07] PluginResult:toJSONString - {"status":1,"message":"wifi","keepCallback":false}
+2012-08-20 21:43:48.102 spike_cordova[20417:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('NetworkStatus0',{"status":1,"message":"wifi","keepCallback":false});
+2012-08-20 21:43:48.103 spike_cordova[20417:c07] PluginResult:toJSONString - {"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false}
+2012-08-20 21:43:48.104 spike_cordova[20417:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Device1',{"status":1,"message":{"name":"iPhone Simulator","uuid":"5DB2C612-5079-4A24-B5B8-E7E6316EA874","platform":"iPhone Simulator","version":"5.1","cordova":"2.0.0"},"keepCallback":false});
+2012-08-20 21:43:48.108 spike_cordova[20417:c07] [INFO] evento
+2012-08-20 21:43:48.109 spike_cordova[20417:c07] Will use resource 'http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3' from the Internet.
+2012-08-20 21:43:48.109 spike_cordova[20417:c07] PluginResult:toJSONString - {"status":1,"message":"OK","keepCallback":false}
+2012-08-20 21:43:48.110 spike_cordova[20417:c07] PluginResult toSuccessCallbackString: cordova.callbackSuccess('Media2',{"status":1,"message":"OK","keepCallback":false});
+2012-08-20 21:43:48.110 spike_cordova[20417:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-20 21:43:48.111 spike_cordova[20417:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-20 21:43:48.111 spike_cordova[20417:c07] ERROR whitelist rejection: url='http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3'
+2012-08-20 21:43:48.112 spike_cordova[20417:c07] Unable to download audio from: http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3
+2012-08-20 21:43:48.113 spike_cordova[20417:c07] Failed to initialize AVAudioPlayer: The operation couldn’t be completed. (NSURLErrorDomain error -1012.)
+Terminating in response to SpringBoard's termination.
+2012-08-21 02:02:51.658 spike_cordova[21512:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 02:05:23.384 spike_cordova[21512:1e03] void SendDelegateMessage(NSInvocation*): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2012-08-21 02:19:41.846 spike_cordova[22179:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 02:23:37.222 spike_cordova[22634:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 02:24:03.874 spike_cordova[22634:1e03] void SendDelegateMessage(NSInvocation*): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2012-08-21 03:14:26.820 spike_cordova[23325:c07] Multi-tasking -> Device: YES, App: YES
+Terminating in response to SpringBoard's termination.
+2012-08-21 03:15:15.571 spike_cordova[23538:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 03:17:28.771 spike_cordova[23787:c07] Multi-tasking -> Device: YES, App: YES
+Terminating in response to SpringBoard's termination.
+2012-08-21 14:04:34.021 spike_cordova[24419:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 14:27:15.380 spike_cordova[24629:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 14:27:29.953 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_0&0.8882330956403166'
+2012-08-21 14:27:29.966 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_0&0.8882330956403166'
+2012-08-21 14:27:29.977 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_0&0.8882330956403166'
+2012-08-21 14:27:31.547 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_1&0.1200205497443676'
+2012-08-21 14:27:31.547 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_1&0.1200205497443676'
+2012-08-21 14:27:31.548 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_1&0.1200205497443676'
+2012-08-21 14:27:38.219 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_2&0.6626215404830873'
+2012-08-21 14:27:38.220 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_2&0.6626215404830873'
+2012-08-21 14:27:38.221 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_2&0.6626215404830873'
+2012-08-21 14:27:42.819 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_3&0.22378041315823793'
+2012-08-21 14:27:42.820 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_3&0.22378041315823793'
+2012-08-21 14:27:42.821 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_3&0.22378041315823793'
+2012-08-21 14:27:46.400 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_4&0.5554337687790394'
+2012-08-21 14:27:46.401 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_4&0.5554337687790394'
+2012-08-21 14:27:46.402 spike_cordova[24629:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=Juas&callback=enyo_jsonp_callback_4&0.5554337687790394'
+2012-08-21 14:32:25.668 spike_cordova[24785:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 14:32:35.562 spike_cordova[24785:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=juas&callback=enyo_jsonp_callback_0&0.9827595027163625'
+2012-08-21 14:32:35.563 spike_cordova[24785:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=juas&callback=enyo_jsonp_callback_0&0.9827595027163625'
+2012-08-21 14:32:35.564 spike_cordova[24785:c07] ERROR whitelist rejection: url='http://search.twitter.com/search.json?&q=juas&callback=enyo_jsonp_callback_0&0.9827595027163625'
+2012-08-21 14:33:10.207 spike_cordova[24932:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 14:33:15.081 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2526377196/xTfsX4Ta_normal'
+2012-08-21 14:33:15.081 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2526377196/xTfsX4Ta_normal'
+2012-08-21 14:33:15.082 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2526377196/xTfsX4Ta_normal'
+2012-08-21 14:33:15.083 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/1729844637/8dda523c2483e1d39d334e5b427f2820_-_copia_normal.jpg'
+2012-08-21 14:33:15.084 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/1729844637/8dda523c2483e1d39d334e5b427f2820_-_copia_normal.jpg'
+2012-08-21 14:33:15.084 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/1729844637/8dda523c2483e1d39d334e5b427f2820_-_copia_normal.jpg'
+2012-08-21 14:33:15.085 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2287864770/u0qIXLO2_normal'
+2012-08-21 14:33:15.086 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2287864770/u0qIXLO2_normal'
+2012-08-21 14:33:15.086 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2287864770/u0qIXLO2_normal'
+2012-08-21 14:33:15.087 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2360548240/image_normal.jpg'
+2012-08-21 14:33:15.088 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2360548240/image_normal.jpg'
+2012-08-21 14:33:15.089 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2360548240/image_normal.jpg'
+2012-08-21 14:33:15.090 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2525429416/p392n6hg0kv707cdr07l_normal.jpeg'
+2012-08-21 14:33:15.090 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2525429416/p392n6hg0kv707cdr07l_normal.jpeg'
+2012-08-21 14:33:15.091 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2525429416/p392n6hg0kv707cdr07l_normal.jpeg'
+2012-08-21 14:33:15.092 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2518270655/ed9gmuopnmmrsc9rzkes_normal.jpeg'
+2012-08-21 14:33:15.092 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2518270655/ed9gmuopnmmrsc9rzkes_normal.jpeg'
+2012-08-21 14:33:15.093 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2518270655/ed9gmuopnmmrsc9rzkes_normal.jpeg'
+2012-08-21 14:33:15.110 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2284883623/w6xxie6iq955sllnh4p7_normal.jpeg'
+2012-08-21 14:33:15.111 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2284883623/w6xxie6iq955sllnh4p7_normal.jpeg'
+2012-08-21 14:33:15.111 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2284883623/w6xxie6iq955sllnh4p7_normal.jpeg'
+2012-08-21 14:33:15.113 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2329151072/yacecr4zeoa550icxutf_normal.jpeg'
+2012-08-21 14:33:15.113 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2329151072/yacecr4zeoa550icxutf_normal.jpeg'
+2012-08-21 14:33:15.114 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2329151072/yacecr4zeoa550icxutf_normal.jpeg'
+2012-08-21 14:33:15.115 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2174092874/yo_yo__normal.jpg'
+2012-08-21 14:33:15.116 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2174092874/yo_yo__normal.jpg'
+2012-08-21 14:33:15.116 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2174092874/yo_yo__normal.jpg'
+2012-08-21 14:33:15.117 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2510683937/NkQ06sy8_normal'
+2012-08-21 14:33:15.118 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2510683937/NkQ06sy8_normal'
+2012-08-21 14:33:15.118 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2510683937/NkQ06sy8_normal'
+2012-08-21 14:33:15.119 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2527664854/izaskun_normal.jpg'
+2012-08-21 14:33:15.120 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2527664854/izaskun_normal.jpg'
+2012-08-21 14:33:15.120 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2527664854/izaskun_normal.jpg'
+2012-08-21 14:33:15.121 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/1474156572/Avatar_Samus_Deal_With_It_normal.png'
+2012-08-21 14:33:15.122 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/1474156572/Avatar_Samus_Deal_With_It_normal.png'
+2012-08-21 14:33:15.122 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/1474156572/Avatar_Samus_Deal_With_It_normal.png'
+2012-08-21 14:33:15.123 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2108400960/scully_normal.jpg'
+2012-08-21 14:33:15.124 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2108400960/scully_normal.jpg'
+2012-08-21 14:33:15.124 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2108400960/scully_normal.jpg'
+2012-08-21 14:33:15.125 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2497315492/IMG-20120315-06947_normal.jpg'
+2012-08-21 14:33:15.126 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2497315492/IMG-20120315-06947_normal.jpg'
+2012-08-21 14:33:15.126 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2497315492/IMG-20120315-06947_normal.jpg'
+2012-08-21 14:33:15.127 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2355255116/8U6aLbca_normal'
+2012-08-21 14:33:15.128 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2355255116/8U6aLbca_normal'
+2012-08-21 14:33:15.128 spike_cordova[24932:1e03] ERROR whitelist rejection: url='http://a0.twimg.com/profile_images/2355255116/8U6aLbca_normal'
+2012-08-21 14:34:38.516 spike_cordova[25204:c07] Multi-tasking -> Device: YES, App: YES
+2012-08-21 15:40:17.712 spike_cordova[25493:c07] Multi-tasking -> Device: YES, App: YES
+Terminating in response to SpringBoard's termination.

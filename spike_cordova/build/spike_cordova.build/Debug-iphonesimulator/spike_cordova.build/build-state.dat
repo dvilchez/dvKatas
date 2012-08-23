@@ -1,0 +1,678 @@
+Tspike_cordova
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Info.plist spike_cordova/spike_cordova-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Script-304B58A110DAC018002A0835.sh
+cCpResource /Users/dvilchez/Documents/CordovaLib/VERSION /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/VERSION
+cCpResource www /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/www
+cCopyPlistFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Cordova.plist spike_cordova/Resources/../Cordova.plist
+cCpResource spike_cordova/Resources/icons/icon-72.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon-72.png
+cCpResource spike_cordova/Resources/icons/icon.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon.png
+cCpResource spike_cordova/Resources/icons/icon@2x.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon@2x.png
+cCpResource spike_cordova/Resources/Capture.bundle /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Capture.bundle
+cCopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/en.lproj/Localizable.strings spike_cordova/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/es.lproj/Localizable.strings spike_cordova/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.xib
+cCopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/de.lproj/Localizable.strings spike_cordova/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/se.lproj/Localizable.strings spike_cordova/Resources/se.lproj/Localizable.strings
+cCpResource spike_cordova/Resources/splash/Default-Landscape@2x~ipad.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape@2x~ipad.png
+cCpResource spike_cordova/Resources/splash/Default-Landscape~ipad.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape~ipad.png
+cCpResource spike_cordova/Resources/splash/Default-Portrait@2x~ipad.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait@2x~ipad.png
+cCpResource spike_cordova/Resources/splash/Default-Portrait~ipad.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait~ipad.png
+cCpResource spike_cordova/Resources/splash/Default@2x~iphone.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default@2x~iphone.png
+cCpResource spike_cordova/Resources/splash/Default~iphone.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default~iphone.png
+cProcessPCH /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch.pth spike_cordova/spike_cordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/main.o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/MainViewController.o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/AppDelegate.o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova normal i386
+cGenerateDSYMFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app.dSYM /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova
+cTouch /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000005023E2640000000000000110
+t1344528996
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000050131EFA0000000000182900
+t1343430394
+s1583360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000050131EFA0000000000095860
+t1343430394
+s612448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000050131EFA0000000000169880
+t1343430394
+s1480832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050131EFA00000000002FDC30
+t1343430394
+s3136560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000050131EFB00000000002051E0
+t1343430395
+s2118112
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050131EFB0000000000244490
+t1343430395
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000050131EFB0000000000089510
+t1343430395
+s562448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000050131EFB0000000000069670
+t1343430395
+s431728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050131EFC0000000000353830
+t1343430396
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000050131F030000000000243A90
+t1343430403
+s2374288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000050131F0300000000000998D0
+t1343430403
+s628944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000050131F0400000000001AB190
+t1343430404
+s1749392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000050131F04000000000006C8A0
+t1343430404
+s444576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050131F050000000000905E40
+t1343430405
+s9461312
+
+N/Users/dvilchez/Documents/CordovaLib/VERSION
+c0000000050089EE90000000000000005
+t1342742249
+s5
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/spike_cordova.LinkFileList
+c0000000050338FBD0000000000000222
+t1345556413
+s546
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Script-304B58A110DAC018002A0835.sh
+c0000000050338FBD0000000000000027
+t1345556413
+s39
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.h
+c000000005030DFB000000000000005C9
+t1345380272
+s1481
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m
+c000000005030DFB00000000000001341
+t1345380272
+s4929
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.h
+c000000005030DFB00000000000000414
+t1345380272
+s1044
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m
+c000000005030DFB00000000000001004
+t1345380272
+s4100
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.xib
+c000000005030DFAF0000000000001759
+t1345380271
+s5977
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/../Cordova.plist
+c00000000503380570000000000000996
+t1345552471
+s2454
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/Capture.bundle
+c000000005030DFAF00000000000002EC
+t1345380271
+s748
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/de.lproj/Localizable.strings
+c000000005030DFAF0000000000000485
+t1345380271
+s1157
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/en.lproj/Localizable.strings
+c000000005030DFAF0000000000000470
+t1345380271
+s1136
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/es.lproj/Localizable.strings
+c000000005030DFAF000000000000047D
+t1345380271
+s1149
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/icons/icon-72.png
+c000000005030DFAF0000000000001350
+t1345380271
+s4944
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/icons/icon.png
+c000000005030DFAF0000000000000F3E
+t1345380271
+s3902
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/icons/icon@2x.png
+c000000005030DFAF0000000000001EBD
+t1345380271
+s7869
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/se.lproj/Localizable.strings
+c000000005030DFAF0000000000000471
+t1345380271
+s1137
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005030DFAF0000000000176888
+t1345380271
+s1534088
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default-Landscape~ipad.png
+c000000005030DFAF00000000000674B7
+t1345380271
+s423095
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005030DFAF00000000001892C2
+t1345380271
+s1610434
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default-Portrait~ipad.png
+c000000005030DFAF0000000000066F23
+t1345380271
+s421667
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default@2x~iphone.png
+c000000005030DFAF0000000000055981
+t1345380271
+s350593
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default~iphone.png
+c000000005030DFAF0000000000016EC9
+t1345380271
+s93897
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/main.m
+c000000005030DFB00000000000000496
+t1345380272
+s1174
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/spike_cordova-Prefix.pch
+c000000005030DFB000000000000003CB
+t1345380272
+s971
+
+N/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/www
+c00000000503389850000000000000154
+t1345554821
+s340
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/build/libCordova.a
+c0000000050338FBD000000000027C268
+t1345556413
+s2605672
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/CDVCommandDelegate.h
+c000000005033805A0000000000000455
+t1345552474
+s1109
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/CDVCordovaView.h
+c000000005033805A0000000000000357
+t1345552474
+s855
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/CDVInvokedUrlCommand.h
+c000000005033805A00000000000004CA
+t1345552474
+s1226
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/CDVPlugin.h
+c000000005033805A00000000000007E5
+t1345552474
+s2021
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/CDVPluginResult.h
+c000000005033805A000000000000097E
+t1345552474
+s2430
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/CDVURLProtocol.h
+c000000005033805A00000000000004B1
+t1345552474
+s1201
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/CDVViewController.h
+c000000005033805A0000000000000996
+t1345552474
+s2454
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/CDVWhitelist.h
+c000000005033805A00000000000004B0
+t1345552474
+s1200
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/JSONKit.h
+c000000005033805A0000000000002EA2
+t1345552474
+s11938
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include/Cordova/NSMutableArray+QueueAdditions.h
+c000000005033805A00000000000003A7
+t1345552474
+s935
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app.dSYM
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Capture.bundle
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Cordova.plist
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default~iphone.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Info.plist
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/MainViewController.nib
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/PkgInfo
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/VERSION
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon-72.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon@2x.png
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova
+t2
+s0
+
+N/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/www
+t2
+s0
+
+N/var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch.pth
+t2
+s0
+
+Nspike_cordova/spike_cordova-Info.plist
+c000000005030DFB000000000000009C6
+t1345380272
+s2502
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa7b3ab3dc7e3b541^8a06ad3dc7e3b541^---0#1#0#--18"Check dependencies36"9A48F95D-26E2-42D1-BDFC-6AE6C4E90CDF-
+
+CCompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/AppDelegate.o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367249215.031023
+e367249215.115457
+r1
+xCompileC
+xbuild/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/AppDelegate.o
+x/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o    self.viewController.invokeString = invokeString;
+o                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m7369083fc7e3b541^ef8d1d3fc7e3b541^-289"/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]    self.viewController.invokeString = invokeString;                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-367249215#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@131"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m0000000000000000^76#24#76#24#2551#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@131"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m0000000000000000^4307"CompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/AppDelegate.o spike_cordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-generated-files.hmap -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-own-target-headers.hmap -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-all-target-headers.hmap -iquote /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-project-headers.hmap -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/usr/local/lib/include -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/UninstalledProducts/include -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources/i386 -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources -F/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -include /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch -MMD -MT dependencies -MF /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/AppDelegate.dia -c /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/AppDelegate.m -o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/AppDelegate.o36"87B20B39-DC82-4E1D-9D74-234E52D97FD7-
+
+CCompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/MainViewController.o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367249215.031041
+e367249215.102877
+r1
+xCompileC
+xbuild/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/MainViewController.o
+x/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o     if (self.invokeString)
+o              ^
+o/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
+o                                                                                            ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m5169083fc7e3b541^08551a3fc7e3b541^-661"/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]     if (self.invokeString)              ^/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];                                                                                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-367249215#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@138"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m0000000000000000^107#14#107#14#2857#0#12"Deprecations--2@28"'invokeString' is deprecated-367249215#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@138"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m0000000000000000^111#92#111#92#3267#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@138"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m0000000000000000^4349"CompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/MainViewController.o spike_cordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-generated-files.hmap -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-own-target-headers.hmap -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-all-target-headers.hmap -iquote /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-project-headers.hmap -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/usr/local/lib/include -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/UninstalledProducts/include -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources/i386 -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources -F/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -include /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch -MMD -MT dependencies -MF /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/MainViewController.dia -c /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.m -o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/MainViewController.o36"495D5FD2-424F-4DBA-BA58-FD85C7DBEBF9-
+
+CCompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/main.o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367249215.030980
+e367249215.064650
+r1
+xCompileC
+xbuild/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/main.o
+x/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/main.me547083fc7e3b541^feb5103fc7e3b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/main.m0000000000000000^4249"CompileC build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/main.o spike_cordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-generated-files.hmap -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-own-target-headers.hmap -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-all-target-headers.hmap -iquote /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-project-headers.hmap -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/usr/local/lib/include -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/UninstalledProducts/include -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources/i386 -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources -F/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -include /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch -MMD -MT dependencies -MF /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/main.dia -c /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/main.m -o /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/main.o36"DEE9B536-47D7-452A-856B-8A17ECEA6E8D-
+
+CCompileXIB /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.xib
+s367249213.766621
+e367249214.736250
+r1
+xCompileXIB
+x/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compiling /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.xib0876c43dc7e3b541^247bbc3ec7e3b541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.xib0000000000000000^1154"CompileXIB spike_cordova/Classes/MainViewController.xib    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/MainViewController.nib /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"80207BD9-DA70-4987-A8E7-5324D097FA4D-
+
+CCopyPlistFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Cordova.plist spike_cordova/Resources/../Cordova.plist
+s367249213.729250
+e367249213.732106
+r1
+xCopyPlistFile
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Cordova.plist
+xspike_cordova/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy spike_cordova/Resources/../Cordova.plist91d4ba3dc7e3b541^a06bbb3dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/../Cordova.plist0000000000000000^753"CopyPlistFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Cordova.plist spike_cordova/Resources/../Cordova.plist    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copyPlist --convert binary1 --outdir /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app -- spike_cordova/Resources/../Cordova.plist36"05C46C50-0B95-4B68-B8D8-6208A7BB1430-
+
+CCopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/de.lproj/Localizable.strings spike_cordova/Resources/de.lproj/Localizable.strings
+s367249213.785578
+e367249213.797540
+r1
+xCopyStringsFile
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/de.lproj/Localizable.strings
+xspike_cordova/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy spike_cordova/Resources/de.lproj/Localizable.strings2045c93dc7e3b541^2576cd3dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/de.lproj/Localizable.strings0000000000000000^844"CopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/de.lproj/Localizable.strings spike_cordova/Resources/de.lproj/Localizable.strings    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/de.lproj -- spike_cordova/Resources/de.lproj/Localizable.strings36"BD68EEAA-B29C-4DFA-98C3-C5E2A16C9E01-
+
+CCopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/en.lproj/Localizable.strings spike_cordova/Resources/en.lproj/Localizable.strings
+s367249213.755376
+e367249213.765181
+r1
+xCopyStringsFile
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/en.lproj/Localizable.strings
+xspike_cordova/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy spike_cordova/Resources/en.lproj/Localizable.strings9f94c13dc7e3b541^38f3c33dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/en.lproj/Localizable.strings0000000000000000^844"CopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/en.lproj/Localizable.strings spike_cordova/Resources/en.lproj/Localizable.strings    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/en.lproj -- spike_cordova/Resources/en.lproj/Localizable.strings36"ACE0B4EF-5F82-4F35-9D5F-320FF3EE1FC4-
+
+CCopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/es.lproj/Localizable.strings spike_cordova/Resources/es.lproj/Localizable.strings
+s367249213.755829
+e367249213.783818
+r1
+xCopyStringsFile
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/es.lproj/Localizable.strings
+xspike_cordova/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy spike_cordova/Resources/es.lproj/Localizable.strings1ac2c13dc7e3b541^d0b4c83dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/es.lproj/Localizable.strings0000000000000000^844"CopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/es.lproj/Localizable.strings spike_cordova/Resources/es.lproj/Localizable.strings    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/es.lproj -- spike_cordova/Resources/es.lproj/Localizable.strings36"D61D5381-BE93-4B0D-81E2-23A138923908-
+
+CCopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/se.lproj/Localizable.strings spike_cordova/Resources/se.lproj/Localizable.strings
+s367249213.808074
+e367249213.877527
+r1
+xCopyStringsFile
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/se.lproj/Localizable.strings
+xspike_cordova/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy spike_cordova/Resources/se.lproj/Localizable.strings1408cf3dc7e3b541^6cb0e03dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/se.lproj/Localizable.strings0000000000000000^844"CopyStringsFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/se.lproj/Localizable.strings spike_cordova/Resources/se.lproj/Localizable.strings    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/se.lproj -- spike_cordova/Resources/se.lproj/Localizable.strings36"07A30602-ED03-42DC-81A5-F8146CFA41D8-
+
+CCpResource /Users/dvilchez/Documents/CordovaLib/VERSION /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/VERSION
+s367249213.729233
+e367249213.734307
+r1
+xCpResource
+x/Users/dvilchez/Documents/CordovaLib/VERSION
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/VERSION
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/VERSIONddd2ba3dc7e3b541^72fdbb3dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/VERSION000000000080d041^812"CpResource /Users/dvilchez/Documents/CordovaLib/VERSION /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/VERSION    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dvilchez/Documents/CordovaLib/VERSION /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"58466001-362B-4545-BD83-F752A82A07DD-
+
+CCpResource spike_cordova/Resources/Capture.bundle /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Capture.bundle
+s367249213.754882
+e367249213.886305
+r1
+xCpResource
+xspike_cordova/Resources/Capture.bundle
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Capture.bundlef06ac13dc7e3b541^64eae23dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Capture.bundle000000000080d041^887"CpResource spike_cordova/Resources/Capture.bundle /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Capture.bundle    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/Capture.bundle /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"12CC22B5-7808-47AF-9025-3E87D663A0D1-
+
+CCpResource spike_cordova/Resources/icons/icon-72.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon-72.png
+s367249213.729445
+e367249213.753870
+r1
+xCpResource
+xspike_cordova/Resources/icons/icon-72.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon-72.png01deba3dc7e3b541^f301c13dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon-72.png000000000080d041^890"CpResource spike_cordova/Resources/icons/icon-72.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon-72.png    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/icons/icon-72.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"C6A0957A-BE5A-48AA-B990-3E6AC6ABAD50-
+
+CCpResource spike_cordova/Resources/icons/icon.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon.png
+s367249213.733396
+e367249213.753536
+r1
+xCpResource
+xspike_cordova/Resources/icons/icon.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon.png21e9bb3dc7e3b541^bce7c03dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon.png000000000080d041^881"CpResource spike_cordova/Resources/icons/icon.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon.png    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/icons/icon.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"8589B737-1A2F-4209-92C9-30CB7D9F34DC-
+
+CCpResource spike_cordova/Resources/icons/icon@2x.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon@2x.png
+s367249213.735505
+e367249213.754068
+r1
+xCpResource
+xspike_cordova/Resources/icons/icon@2x.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon@2x.png2e75bc3dc7e3b541^280dc13dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon@2x.png000000000080d041^896"CpResource "spike_cordova/Resources/icons/icon@2x.png" "/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/icon@2x.png"    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/icons/icon@2x.png" /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"B62F34C7-BDB7-44C5-8AE1-FDF13FF529E5-
+
+CCpResource spike_cordova/Resources/splash/Default-Landscape@2x~ipad.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape@2x~ipad.png
+s367249213.878894
+e367249214.004908
+r1
+xCpResource
+xspike_cordova/Resources/splash/Default-Landscape@2x~ipad.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape@2x~ipad.png172ce13dc7e3b541^d941013ec7e3b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape@2x~ipad.png000000000080d041^952"CpResource "spike_cordova/Resources/splash/Default-Landscape@2x~ipad.png" "/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape@2x~ipad.png"    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default-Landscape@2x~ipad.png" /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"A5BC90F3-3096-4D4A-8441-6F62A64E06EE-
+
+CCpResource spike_cordova/Resources/splash/Default-Landscape~ipad.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape~ipad.png
+s367249213.887769
+e367249213.910044
+r1
+xCpResource
+xspike_cordova/Resources/splash/Default-Landscape~ipad.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape~ipad.pnge273e33dc7e3b541^c2f9e83dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape~ipad.png000000000080d041^943"CpResource "spike_cordova/Resources/splash/Default-Landscape~ipad.png" "/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Landscape~ipad.png"    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default-Landscape~ipad.png" /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"C12E9F1E-0C03-45DE-85E8-17CBF9A7BB24-
+
+CCpResource spike_cordova/Resources/splash/Default-Portrait@2x~ipad.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait@2x~ipad.png
+s367249213.911393
+e367249214.251195
+r1
+xCpResource
+xspike_cordova/Resources/splash/Default-Portrait@2x~ipad.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait@2x~ipad.png7078e93dc7e3b541^5455403ec7e3b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait@2x~ipad.png000000000080d041^949"CpResource "spike_cordova/Resources/splash/Default-Portrait@2x~ipad.png" "/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait@2x~ipad.png"    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default-Portrait@2x~ipad.png" /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"BB895CBF-8552-40F5-80A2-0E8E72DA86B9-
+
+CCpResource spike_cordova/Resources/splash/Default-Portrait~ipad.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait~ipad.png
+s367249214.006248
+e367249214.008781
+r1
+xCpResource
+xspike_cordova/Resources/splash/Default-Portrait~ipad.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait~ipad.png5bb3013ec7e3b541^4240023ec7e3b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait~ipad.png000000000080d041^940"CpResource "spike_cordova/Resources/splash/Default-Portrait~ipad.png" "/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default-Portrait~ipad.png"    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default-Portrait~ipad.png" /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"EB620EDD-5869-41A1-BA81-CF7005576EEC-
+
+CCpResource spike_cordova/Resources/splash/Default@2x~iphone.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default@2x~iphone.png
+s367249214.010054
+e367249214.012481
+r1
+xCpResource
+xspike_cordova/Resources/splash/Default@2x~iphone.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default@2x~iphone.png64ac023ec7e3b541^ad32033ec7e3b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default@2x~iphone.png000000000080d041^928"CpResource "spike_cordova/Resources/splash/Default@2x~iphone.png" "/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default@2x~iphone.png"    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default@2x~iphone.png" /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"DE0AC4A7-12C2-401A-B4A4-704878FC7549-
+
+CCpResource spike_cordova/Resources/splash/Default~iphone.png /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default~iphone.png
+s367249214.013741
+e367249214.016228
+r1
+xCpResource
+xspike_cordova/Resources/splash/Default~iphone.png
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default~iphone.pngb5a8033ec7e3b541^a627043ec7e3b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default~iphone.png000000000080d041^919"CpResource "spike_cordova/Resources/splash/Default~iphone.png" "/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Default~iphone.png"    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/Resources/splash/Default~iphone.png" /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"EC1372C8-6845-4B8C-88F2-0D90FCA27675-
+
+CCpResource www /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/www
+s367249213.729242
+e367249214.269336
+r1
+xCpResource
+xwww
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/www89d2ba3dc7e3b541^8bfe443ec7e3b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/www000000000080d041^806"CpResource www /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/www    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/www /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"D311603D-B59B-45EA-831E-E51A784DF2EF-
+
+CGenerateDSYMFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app.dSYM /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova
+s367249215.390482
+e367249215.540032
+r1
+xGenerateDSYMFile
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app.dSYM
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generating /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app.dSYM130f643fc7e3b541^ff3f8a3fc7e3b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app.dSYM000000000080d041^919"GenerateDSYMFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app.dSYM /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova -o /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app.dSYM36"70A1923C-E739-4C42-8ADA-26DF688A652B-
+
+CLd /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova normal i386
+s367249215.122314
+e367249215.383559
+r1
+xLd
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Link /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova5d6f1f3fc7e3b541^8331623fc7e3b541^---0#0#0#--1963"Ld /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova normal i386    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -F/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -filelist /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/spike_cordova.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 /Users/dvilchez/source_code/dvKatas/spike_cordova/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/spike_cordova36"6E87E1D3-2554-4EA2-8633-1FD6C6587755-
+
+CPhaseScriptExecution "Touch www folder" /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Script-304B58A110DAC018002A0835.sh
+s367249213.701573
+e367249213.721131
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'7e53b43dc7e3b541^1b9cb83dc7e3b541^---0#0#0#--21993"PhaseScriptExecution "Touch www folder" build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Script-304B58A110DAC018002A0835.sh    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER dvilchez    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build    setenv BUILD_ROOT /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build    setenv CACHE_ROOT /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build    setenv CONFIGURATION_TEMP_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH spike_cordova.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/dvilchez/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH spike_cordova.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/spike_cordova.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME spike_cordova.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH spike_cordova.app/Executables    setenv EXECUTABLE_FOLDER_PATH spike_cordova.app    setenv EXECUTABLE_NAME spike_cordova    setenv EXECUTABLE_PATH spike_cordova.app/spike_cordova    setenv FILE_LIST /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH spike_cordova.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME spike_cordova.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER spike_cordova/spike_cordova-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include\" \"/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/usr/local/lib/include\" \"/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/UninstalledProducts/include\" \"/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE spike_cordova/spike_cordova-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH spike_cordova.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH spike_cordova.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/spike_cordova.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER dvilchez    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/spike_cordova.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH spike_cordova.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal/i386/spike_cordova.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH spike_cordova.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12A269    setenv MAC_OS_X_VERSION_ACTUAL 1080    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0800    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Objects-normal    setenv OBJROOT /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH spike_cordova.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/PkgInfo    setenv PKGINFO_PATH spike_cordova.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH spike_cordova.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH spike_cordova.app/PrivateHeaders    setenv PRODUCT_NAME spike_cordova    setenv PRODUCT_SETTINGS_PATH /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/spike_cordova-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT spike_cordova    setenv PROJECT_DERIVED_FILE_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/DerivedSources    setenv PROJECT_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PROJECT_FILE_PATH /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova.xcodeproj    setenv PROJECT_NAME spike_cordova    setenv PROJECT_TEMP_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build    setenv PUBLIC_HEADERS_FOLDER_PATH spike_cordova.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH spike_cordova.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_NAME iphonesimulator5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH spike_cordova.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH spike_cordova.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv SRCROOT /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME spike_cordova    setenv TARGET_BUILD_DIR /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build    setenv TARGET_NAME spike_cordova    setenv TARGET_TEMP_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build    setenv TEMP_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build    setenv TEMP_FILES_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build    setenv TEMP_FILE_DIR /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build    setenv TEMP_ROOT /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH spike_cordova.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER dvilchez    setenv USER_APPS_DIR /Users/dvilchez/Applications    setenv USER_LIBRARY_DIR /Users/dvilchez/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH spike_cordova.app/version.plist    setenv VERSION_INFO_BUILDER dvilchez    setenv VERSION_INFO_FILE spike_cordova_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:spike_cordova  PROJECT:spike_cordova-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME spike_cordova.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4F1003    setenv XCODE_VERSION_ACTUAL 0441    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0440    setenv YACC yacc    /bin/sh -c /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/Script-304B58A110DAC018002A0835.sh36"5BE72B41-D2BB-44BA-9FA3-B94A4A0CDF98-
+
+CProcessInfoPlistFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Info.plist spike_cordova/spike_cordova-Info.plist
+s367249213.687669
+e367249213.693178
+r1
+xProcessInfoPlistFile
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Info.plist
+xspike_cordova/spike_cordova-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process spike_cordova/spike_cordova-Info.plist2d5eb03dc7e3b541^6074b13dc7e3b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/spike_cordova-Info.plist0000000000000000^911"ProcessInfoPlistFile /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Info.plist spike_cordova/spike_cordova-Info.plist    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    builtin-infoPlistUtility spike_cordova/spike_cordova-Info.plist -genpkginfo /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app/Info.plist36"E001DB15-2827-4E30-81E3-60DB5FDADA8E-
+
+CProcessPCH /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch.pth spike_cordova/spike_cordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s367249214.744376
+e367249215.023832
+r1
+xProcessPCH
+x/var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch.pth
+xspike_cordova/spike_cordova-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile spike_cordova/spike_cordova-Prefix.pchfcc7be3ec7e3b541^ce1c063fc7e3b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/spike_cordova-Prefix.pch0000000000000000^4184"ProcessPCH /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch.pth spike_cordova/spike_cordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-generated-files.hmap -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-own-target-headers.hmap -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-all-target-headers.hmap -iquote /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/spike_cordova-project-headers.hmap -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/include -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/usr/local/lib/include -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/UninstalledProducts/include -I/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources/i386 -I/Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/build/spike_cordova.build/Debug-iphonesimulator/spike_cordova.build/DerivedSources -F/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build --serialize-diagnostics /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch.dia -c /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova/spike_cordova/spike_cordova-Prefix.pch -o /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rh/m_1hb64n4ddccnx4sy5w0v4c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/spike_cordova-Prefix-edcqwqrqfikawbhjdcbbointzfhq/spike_cordova-Prefix.pch.d36"584F445F-3349-4D29-935F-1D28826077C3-
+
+CTouch /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app
+s367249215.548595
+e367249215.558212
+r1
+xTouch
+x/Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.appffb18c3fc7e3b541^c5e78e3fc7e3b541^---0#0#0#--619"Touch /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app    cd /Users/dvilchez/Documents/desarrollo_limpio/mis_proyectos/dvKatas/spike_cordova    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/dvilchez/Documents/android-sdk-macosx/tools:/Users/dvilchez/Documents/android-sdk-macosx/platform-tools"    /usr/bin/touch -c /Users/dvilchez/source_code/dvKatas/spike_cordova/cordova/../build/spike_cordova.app36"3DDC6C87-4124-4221-8C42-C942CD5AFC30-
+

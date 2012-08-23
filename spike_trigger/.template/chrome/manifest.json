@@ -1,0 +1,18 @@
+{
+	"name": "APP_NAME_HERE",
+	"version": "VERSION_HERE",
+	"description": "DESCRIPTION_HERE",
+	"permissions": ["https://twitter.com/*", "http://*/*", "tabs", "notifications"],
+	"background": {"page": "forge.html"},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*"]
+			, "js": ["forge/all.js"]
+			, "css": []
+			, "run_at": "document_end"
+			, "all_frames": false
+		}
+	],
+	"browser_action": {"default_icon": "src/img/logo-forge.png", "default_popup": "src/index.html"},
+	"manifest_version": 2
+}

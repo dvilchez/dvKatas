@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+				<script>
+				function window$forge$_receive(result) {
+					try {
+						window.forge._receive(JSON.parse(result));
+					} catch (e) {
+						forge.logging.error("window$forge$_receive -> " + e);
+					}
+				}
+			</script><script src='../../../../../forge/all.js'></script>
+	<title>onyx checkbox sample</title>
+	<script src="../../../../enyo/enyo.js" type="text/javascript"></script>
+	<script src="../../../onyx/package.js" type="text/javascript"></script>
+</head>
+<body>
+	<script>
+		new (enyo.kind({
+			name: "App",
+			components: [
+				{kind:"onyx.Checkbox", value: true},
+				{kind:"onyx.Checkbox", value: false},
+			],
+		}))().write();
+	</script>
+</body>
+</html>
