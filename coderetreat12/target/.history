@@ -1,0 +1,25 @@
+exit
+test
+exit
+libraryDependencies += "org.scalatest" %% "scalatest" % "1.8" % "test"
+exit
+eclipse
+exit
+eclipse
+test
+build
+compile
+ls
+test
+cd ..
+exit
+cd ..
+exit
+test
+exit
+ensime generate
+"ensime generate"
+ensime
+exit
+ensime generate
+exit
