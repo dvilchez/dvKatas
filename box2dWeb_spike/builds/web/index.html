@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="lib/Box2dWeb-2.1.a.3.js"></script>
+		<style>
+			#canvas {
+				display: block;
+				background-color:#333333;
+			}
+			body{
+				margin: 0px;
+			}
+			#fire {
+				position: absolute;
+				bottom: 50px;
+				left:50px;
+			}
+			#reset {
+				position: absolute;
+				bottom: 50px;
+				right:50px;
+			}
+
+			#left {
+				position: absolute;
+				bottom: 50px;
+				left:400px;
+			}
+
+			#right {
+				position: absolute;
+				bottom: 50px;
+				right:400px;
+			}
+
+			#tamano {
+				position: absolute;
+				top: 10px;
+				left:50px;
+			}
+			#fuerza {
+				position: absolute;
+				top: 10px;
+				right:50px;
+			}
+
+			h1{
+				color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" ></canvas>
+		<div>
+			<button id="fire" onclick="fire()">lanzar</button>
+			<button id="left" onclick="left()"><-</button>
+			<button id="right" onclick="right()">-></button>
+			<button id="reset" onclick="reset()">otra</button>	
+			<div id="tamano">
+				<h1 id="size">10</h1>
+				<button id="moreSize" onclick="moreSize()">+</button>
+				<button id="lessSize" onclick="lessSize()">-</button>
+			</div>
+			<div id="fuerza">
+				<h1 id="torsion">100</h1>
+				<button id="moreTorsion" onclick="moreTorsion()">+</button>
+				<button id="lessTorsion" onclick="lessTorsion()">-</button>
+			</div>
+		</div>
+		<script>
+			var size=10;
+			var torsion=100;
+			var height=window.innerHeight || 
+                     document.documentElement.clientHeight || 
+                     document.body.clientHeight;
+            var width=window.innerWidth || 
+                     document.documentElement.clientWidth || 
+                     document.body.clientWidth;
+			var b2Vec2 = Box2D.Common.Math.b2Vec2;
+			var b2BodyDef = Box2D.Dynamics.b2BodyDef;
+			var b2Body = Box2D.Dynamics.b2Body;
+			var b2FixtureDef = Box2D.Dynamics.b2FixtureDef;
+			var b2Fixture = Box2D.Dynamics.b2Fixture;
+			var b2World = Box2D.Dynamics.b2World;
+			var b2MassData = Box2D.Collision.Shapes.b2MassData;
+			var b2PolygonShape = Box2D.Collision.Shapes.b2PolygonShape;
+			var b2CircleShape = Box2D.Collision.Shapes.b2CircleShape;
+			var b2DebugDraw = Box2D.Dynamics.b2DebugDraw;
+			var b2RevoluteJointDef = Box2D.Dynamics.Joints.b2RevoluteJointDef;
+			var world = new b2World(new b2Vec2(0,10), true);
+			var world_scale = 80;
+			var arm_joint = new b2RevoluteJointDef();
+        	var the_joint_itself;
+			draw_ground();
+			
+			var catapult_body = new b2BodyDef();
+            catapult_body.position.Set(350/world_scale,200/world_scale);
+            catapult_body.type=b2Body.b2_dynamicBody;
+            var main_part = new b2PolygonShape();
+            main_part.SetAsOrientedBox(125/world_scale, 20/world_scale, new b2Vec2(0,0),0);
+            var fixed_arm = new b2PolygonShape();
+            fixed_arm.SetAsOrientedBox(20/world_scale, 60/world_scale, new b2Vec2(-80/world_scale,-40/world_scale),0);
+            var catapult_itself=world.CreateBody(catapult_body);
+            catapult_itself.CreateFixture2(main_part,200);
+            catapult_itself.CreateFixture2(fixed_arm,200);
+
+            var catapult_arm = new b2BodyDef();
+            catapult_arm.allowSleep = false;
+            catapult_arm.position.Set(210/world_scale,110/world_scale);
+            catapult_arm.type=b2Body.b2_dynamicBody;
+            var arm_part = new b2PolygonShape();
+            arm_part.SetAsOrientedBox(150/world_scale, 10/world_scale, new b2Vec2(0,0),0);
+            var stopper = new b2PolygonShape();
+            stopper.SetAsOrientedBox(10/world_scale, 20/world_scale, new b2Vec2(-140/world_scale,-30/world_scale),0);
+            var catapult_arm_itself=world.CreateBody(catapult_arm);
+            catapult_arm_itself.CreateFixture2(arm_part,1);
+            catapult_arm_itself.CreateFixture2(stopper,1);
+
+            arm_joint.enableMotor = true;
+            arm_joint.enableLimit = true;
+            arm_joint.Initialize(catapult_itself, catapult_arm_itself,new b2Vec2(0,0));
+            arm_joint.localAnchorA=new b2Vec2(-80/world_scale,-90/world_scale);
+            arm_joint.localAnchorB=new b2Vec2(60/world_scale,0);
+
+            the_joint_itself=world.CreateJoint(arm_joint);
+            the_joint_itself.SetMotorSpeed(1000);
+            the_joint_itself.SetLimits(-Math.PI,Math.PI/3);
+            the_joint_itself.SetMaxMotorTorque(1) 
+
+
+            var the_cannonball_itself={};
+			var fixture={};
+
+			create_ball(this);
+
+			function create_ball(ctx){
+	            var cannonball= new b2BodyDef();
+	            cannonball.position.Set(catapult_itself.GetPosition().x-2, 90/world_scale);
+	            cannonball.type=b2Body.b2_dynamicBody;
+	            this.the_cannonball_itself=world.CreateBody(cannonball);
+
+	            var myFixture = new b2FixtureDef;
+	            myFixture.shape = new b2CircleShape(size/world_scale);
+	            myFixture.density=20;
+
+	            this.fixture=this.the_cannonball_itself.CreateFixture(myFixture);
+			}
+
+            //addEventListener(Event.ENTER_FRAME, update);
+            
+            // document.addEventListener('click',fire);
+
+
+
+			window.setInterval(update, 1000 / 60);
+			function reset(){
+				the_joint_itself.SetMaxMotorTorque(1);
+				create_ball(this);
+			}
+
+			function right(){
+				catapult_itself.SetPosition(new b2Vec2(catapult_itself.GetPosition().x+0.5,catapult_itself.GetPosition().y));
+			}
+
+			function left(){
+				catapult_itself.SetPosition(new b2Vec2(catapult_itself.GetPosition().x-0.5,catapult_itself.GetPosition().y));
+			}
+
+			function fire(){
+				the_joint_itself.SetMaxMotorTorque(torsion);
+			}
+
+			function draw_ground(){
+				var fixDef = new b2FixtureDef;
+				fixDef.density = 1.0;
+				fixDef.friction = 0.5;
+				fixDef.restitution = 0.2;
+
+				var bodyDef = new b2BodyDef;
+
+				//create ground
+				bodyDef.type = b2Body.b2_staticBody;
+				fixDef.shape = new b2PolygonShape;
+				fixDef.shape.SetAsBox(30, 2);
+				bodyDef.position.Set(12, (height-50)/30);
+				world.CreateBody(bodyDef).CreateFixture(fixDef);
+				// bodyDef.position.Set(10, -1.8);
+				// world.CreateBody(bodyDef).CreateFixture(fixDef);
+				fixDef.shape.SetAsBox(2, 14);
+				// bodyDef.position.Set(-1.8, 13);
+				// world.CreateBody(bodyDef).CreateFixture(fixDef);
+				bodyDef.position.Set((width/30), 13);
+				world.CreateBody(bodyDef).CreateFixture(fixDef);
+
+				var debugDraw = new b2DebugDraw();
+				debugDraw.SetSprite(document.getElementById("canvas").getContext("2d"));
+				debugDraw.SetDrawScale(30.0);
+				debugDraw.SetFillAlpha(0.5);
+				debugDraw.SetLineThickness(1.0);
+				debugDraw.SetFlags(b2DebugDraw.e_shapeBit | b2DebugDraw.e_jointBit);
+				world.SetDebugDraw(debugDraw);
+			}
+
+			function update() {
+				world.Step(1 / 60, 10, 10);
+				world.DrawDebugData();
+				world.ClearForces();
+			};
+
+			function moreSize(){
+				size+=1;
+				document.getElementById('size').innerHTML=size;
+			}
+
+			function lessSize(){
+				if(size>0){
+					size-=1;
+					document.getElementById('size').innerHTML=size;	
+				}
+			}
+
+			function moreTorsion(){
+				torsion+=10;
+				document.getElementById('torsion').innerHTML=torsion;
+			}
+
+			function lessTorsion(){
+				if(torsion>10){
+					torsion-=10;
+					document.getElementById('torsion').innerHTML=torsion;	
+				}
+			}
+
+			document.getElementById('canvas').height=height;
+			document.getElementById('canvas').width=width;
+		</script>
+	</body>
+</html>
